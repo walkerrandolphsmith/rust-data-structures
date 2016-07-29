@@ -1,0 +1,5 @@
+[package]
+
+name = "rust_data_structures"
+version = "0.0.1"
+authors = [ "walkerrandolphsmith@gmail.com" ]

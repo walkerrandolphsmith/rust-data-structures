@@ -2,11 +2,11 @@
 
 ### Build
 ```
-rustc <file-name>.rs
+cargo build
 ```
 
 
 ### Run
 ```
-./<file-name>
+./target/debug/rust-data-structures
 ```
