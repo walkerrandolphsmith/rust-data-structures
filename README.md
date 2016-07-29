@@ -8,5 +8,5 @@ cargo build
 
 ### Run
 ```
-./target/debug/rust-data-structures
+cargo run
 ```
