@@ -19,3 +19,9 @@ fn equality() {
 fn equality_should_panic() {
     assert_eq!("Hello", "World");
 }
+
+#[test]
+#[ignore]
+fn ignored_test() {
+    assert!(false);
+}
