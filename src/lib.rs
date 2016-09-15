@@ -13,3 +13,9 @@ fn should_not_panic() {
 fn equality() {
     assert_eq!("Hello", "Hello");
 }
+
+#[test]
+#[should_panic(expected = "assertion failed")]
+fn equality_should_panic() {
+    assert_eq!("Hello", "World");
+}
